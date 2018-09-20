@@ -9,7 +9,7 @@ import numpy as np
 from collections import defaultdict
 from numpy import genfromtxt
 from autoencoder import PlainAutoEncoder
-from confige import config
+from config import config
 
 data_process = config['data_process']
 gene_max = data_process['gene_expression_maximum_level']
